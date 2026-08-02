@@ -15,7 +15,7 @@ Code variables map to manuscript symbols as follows
 - epsilonF -> $\epsilon_G$
 - phiOMaxFrac -> $\gamma$
 - beta -> $\beta'$
-- betaT -> $beta/T$
+- betaT -> $\beta/T$
 
 Additional comments:
 - The code internally represents concentrations in units of molecule count per cubic micron; these are converted to micromolar (uM) for plotting.
