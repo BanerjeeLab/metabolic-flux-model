@@ -16,7 +16,7 @@ Code variables map to manuscript symbols as follows
 - epsilonF -> $\epsilon_G$
 - phiOMaxFrac -> $\gamma$
 - beta -> $\beta'$
-- betaT -> $beta/T$
+- betaT -> $\beta/T$
 
 Additional comments:
 - The crowding (diffusion) function in methods22.py is switched off for Figure 4. "simGrowthLawsPerturbation.py" and "simGrowthLawsPerturbationVolume.py" both call it with switch=False, so it returns 1 and has no effect. beta must still be passed as an argument but is unused here. Crowding is active only in the Figure 5 and 6 code.
