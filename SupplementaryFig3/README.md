@@ -1,0 +1,3 @@
+### README (Supplementary Fig S3)
+
+Executing "FigS3.py" generates Fig. S3 (A to C): the efficiency against growth rate, the acetate excretion and the position of the efficiency maximum when the respiratory cap phi_O <= gamma (1 - f_in) phi_E and the regime switch are replaced by a smooth saturation of respiratory throughput, r = C h(D/C) with h(x) = x (1 + x^n)^(-1/n), for n = 1, 2, 4, 8 and the capped model (n to infinity). The script is self-contained (the growth-law cell of Fig. 3A is solved directly with the carbon, acetyl-CoA and ATP balances) and runs in a few seconds. Output FigS3.pdf and FigS3_data.json go to "images".
