@@ -1,0 +1,3 @@
+### README (Supplementary Fig S2)
+
+Executing "FigS2.py" generates both panels of Fig. S2: (A) the diffusion-limited ceiling V_max at K_C = 30, 52, 75 and 100 uM with the growth rate kappa_max at which glucose import saturates for the empirical cell, and (B) the ceilings for the glucose-minimal biosynthetic cost e_B = 23.5 ATP per amino acid and for a translation-only cost e_B = 4 ATP per amino acid as a stand-in for media with amino acids supplied. The script imports the model and the V_max procedure from ../Figure_6/Fig6.py and reads the newborn-volume data from ../Figure_6/size_vs_growth_data.csv. Run from this folder; output FigS2.pdf and FigS2_data.json go to "images". Takes about ten minutes.
